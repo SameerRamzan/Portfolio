@@ -1,1 +1,2 @@
-# For my Portfolio[https://sameerramzan.github.io/Portfolio/] check Github Page
+# For my Portfolio[] check Github Page
+<a href="https://sameerramzan.github.io/Portfolio/">Clickable Link Text</a>
