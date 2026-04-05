@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Portfolio</title>
     <style>
-        h1.hero-name {
-            letter-spacing: 0;
-        }
-        .section-title {
-            letter-spacing: 0;
-            line-height: 1.5;
-        }
-        .hero-title {
-            letter-spacing: 0;
+        h2, h3 {
+            letter-spacing: normal; /* Removed letter-spacing constraints */
+            line-height: 1.5; /* Increased line-height for better spacing */
         }
     </style>
 </head>
 <body>
-    <h1 class="hero-name">Welcome to My Portfolio</h1>
-    <h2 class="section-title">Projects</h2>
-    <div class="projects">
-        <!-- Project entries go here -->
-    </div>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>This is a brief introduction about myself.</p>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <h3>Project 1</h3>
+        <p>Description of Project 1.</p>
+        <h3>Project 2</h3>
+        <p>Description of Project 2.</p>
+    </section>
+    <footer>
+        <p>Contact: email@example.com</p>
+    </footer>
 </body>
 </html>
